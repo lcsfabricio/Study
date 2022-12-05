@@ -87,9 +87,54 @@ Um comentário pode ser usado para esconder um trecho do código...
 #### Adicionando links internos:
 
 ``` html
-<a href="/caminho-do-arquivo">Descrição do link</a>
+<a href=".../caminho-do-arquivo">Descrição do link</a>
 ```
 
+#### Adicionando imagens:
+
+```html
+<img src="src/images/dog.png" alt="descrição da imagem">
+```
+
+#### Adicionando listas:
+
+**Listas não ordenadas:**
+```html
+<ul>
+	<li> Item da lista </li>
+	<li> Próximo item da lista </li>
+</ul>
+```
+
+**Nota:** Para facilitar a criação de muitos itens `<li>` é possível usar o comando `ul>li*x` (substituindo x pela quantidade de `<li>` desejadas)
+
+**Listas ordenadas:**
+```html
+<ol>
+	<li> Item da lista </li>
+	<li> Próximo item da lista </li>
+</ol>
+```
+
+#### Estrutura básica de uma tabela:
+
+```html
+<table>       
+	<tr>
+		<th>Tamanho</th>
+		<th>Preço</th>
+	</tr>
+	<tr>
+		<td>M</td>
+		<td>R$54,00</td>
+	</tr>
+</table>
+```
+
+`<table>`: utilizada para exibir dados em séries de linhas e colunas
+`<tr>`: utilizada para definir uma linha de células na tabela,
+`<td>`: utilizada para definir uma célula na tabela contendo algum dado.
+`<th>`: utilizada para definir uma célula de cabeçalho na tabela.
 ## Documentação
 
 [HTML: Linguagem de Marcação de Hipertexto | MDN (mozilla.org)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
